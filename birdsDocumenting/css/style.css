@@ -17,14 +17,17 @@ body{
     overflow-y: scroll;
     overflow-x: hidden;
 }
+.bird-container table{
+    background: #f0f0f0;
+}
 
 /* Add this to your /birdsDocumenting/css/style.css file */
 p.para::first-letter {
-    float: left; /* This allows the letter to be treated as a block element, enabling more complex styling */
-    font-size: 4em; /* Makes the first letter larger. Adjust size as needed */
-    padding: 5px; /* Adds space between the letter and its border */
-    margin-right: 5px; /* Adds space between the styled letter and the rest of the text */
-    line-height: 1; /* Adjusts the line height of the letter to prevent spacing issues */
+    float: left; 
+    font-size: 4em; 
+    padding: 5px; 
+    margin-right: 5px; 
+    line-height: 1; 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   p.para{
