@@ -1,0 +1,84 @@
+.main-wrapper{
+    background: url('/assets/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    a{
+        color: #fff;
+        &:hover{
+            color: #f00;
+        }
+    }
+    .container-fluid{
+        margin: 0;
+        padding: 0;
+    }
+
+    header{
+        margin-bottom: 20px;
+        .navbar{
+            background: none !important;
+            padding: 1rem;
+            img{
+                max-width: 10rem;
+            }
+        }
+    }
+
+    main{
+        font-family: "Edu AU VIC WA NT Pre", serif;
+        .block-intro{
+            .about-me{
+                font-size: 1.7rem;
+                font-weight: 400;
+            }
+            .avatar{
+                background-image: url(/assets/me.jpg);
+                width: 10rem;
+                height: 10rem;
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin: auto;
+                border-radius: 10rem;
+                margin-bottom: 30px;
+            }
+        }
+        .portfolio-skills{
+            .heading{
+                margin-bottom: 3rem;
+                h1{
+                    text-decoration: underline;
+                    
+                }
+            }
+            margin-top: 3rem;
+            .card{
+                background: rgba(255,0,0,0.08);
+                color: #fff;
+                .card-header{
+                    font-size: 3rem;
+                }
+                padding: 2rem;
+            }
+        }
+    }
+
+    footer{
+        background: rgba(0,0,0,0.2);
+        margin: 0;
+        padding: 0;
+        padding: 2rem 0;
+
+        width: 100%;
+        a{
+            font-size: 2rem;
+            color: #fff;
+            &:hover{
+                color: #f00;
+            }
+        }
+    }
+}
